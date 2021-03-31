@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Test_kotlin">
         <activity
-            android:name=".MainActivity"
+            android:name=".JavaActivity"
             android:exported="true" />
         <activity
-            android:name=".JavaActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

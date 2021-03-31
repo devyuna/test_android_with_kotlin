@@ -7,6 +7,51 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!-- map -->
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="388dp"
+        android:layout_height="163dp"
+        android:autoLink="map"
+        android:onClick="DDuck"
+        android:text="620 English Avenue New York, NY 10018"
+        android:textSize="40sp"
+        />
+
+    <!-- phone -->
+<!--    <TextView-->
+<!--        android:id="@+id/tv"-->
+<!--        android:layout_width="388dp"-->
+<!--        android:layout_height="163dp"-->
+<!--        android:autoLink="phone"-->
+<!--        android:onClick="DDuck"-->
+<!--        android:text="+82-10-1234-5678"-->
+<!--        android:textSize="40sp"-->
+<!--        />-->
+
+    <!-- 메일 전송 -->
+<!--    <TextView-->
+<!--        android:id="@+id/tv"-->
+<!--        android:layout_width="388dp"-->
+<!--        android:layout_height="163dp"-->
+<!--        android:autoLink="email"-->
+<!--        android:onClick="DDuck"-->
+<!--        android:text="devyuna030@gmail.com"-->
+<!--        android:textSize="40sp"-->
+<!--        />-->
+
+    <!-- 웹 링크 -->
+<!--    <TextView-->
+<!--        android:id="@+id/tv"-->
+<!--        android:layout_width="388dp"-->
+<!--        android:layout_height="163dp"-->
+<!--        android:autoLink="web"-->
+<!--        android:onClick="DDuck"-->
+<!--        android:text="www.naver.com"-->
+<!--        android:textSize="40sp"-->
+<!--        />-->
+
+    <!-- 버튼 생성 -->
 <!--    <Button-->
 <!--        android:layout_width="wrap_content"-->
 <!--        android:layout_height="wrap_content"-->
@@ -14,15 +59,16 @@
 <!--        android:id="@+id/btn"-->
 <!--        />-->
 
-    <TextView
-        android:id="@+id/tv"
-        android:layout_width="388dp"
-        android:layout_height="163dp"
-        android:autoLink="web"
-        android:onClick="DDuck"
-        android:text="www.naver.com"
-        android:textSize="40sp"
-        />
-
+    <!-- 텍스트에 아이콘 설정 -->
+<!--    <TextView-->
+<!--        android:id="@+id/tv"-->
+<!--        android:layout_width="192dp"-->
+<!--        android:layout_height="58dp"-->
+<!--        android:drawableLeft="@drawable/chipndale_right"-->
+<!--        android:drawablePadding="50dp"-->
+<!--        android:onClick="DDuck"-->
+<!--        android:text="텍스트"-->
+<!--        android:textSize="40sp"-->
+<!--        />-->
 
 </FrameLayout>
