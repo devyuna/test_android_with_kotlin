@@ -7,16 +7,41 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
+    <!-- 텍스트 스타일 -->
+<!--    <TextView-->
+<!--        android:id="@+id/tv"-->
+<!--        android:layout_width="299dp"-->
+<!--        android:layout_height="89dp"-->
+<!--        android:text="텍스트"-->
+<!--        android:fontFamily="monospace"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textSize="40sp"-->
+<!--        />-->
+
+    <!-- 텍스트 그림자 -->
+<!--    <TextView-->
+<!--        android:id="@+id/tv"-->
+<!--        android:layout_width="299dp"-->
+<!--        android:layout_height="89dp"-->
+<!--        android:text="텍스트"-->
+<!--        android:shadowDx="5"-->
+<!--        android:shadowDy="5"-->
+<!--        android:shadowRadius="5"-->
+<!--        android:shadowColor="#118EFF"-->
+<!--        android:textSize="40sp"-->
+<!--        />-->
+
     <!-- map -->
-    <TextView
-        android:id="@+id/tv"
-        android:layout_width="388dp"
-        android:layout_height="163dp"
-        android:autoLink="map"
-        android:onClick="DDuck"
-        android:text="620 English Avenue New York, NY 10018"
-        android:textSize="40sp"
-        />
+<!--    <TextView-->
+<!--        android:id="@+id/tv"-->
+<!--        android:layout_width="388dp"-->
+<!--        android:layout_height="163dp"-->
+<!--        android:autoLink="map"-->
+<!--        android:onClick="DDuck"-->
+<!--        android:text="620 English Avenue New York, NY 10018"-->
+<!--        android:textSize="40sp"-->
+<!--        />-->
 
     <!-- phone -->
 <!--    <TextView-->
@@ -52,12 +77,19 @@
 <!--        />-->
 
     <!-- 버튼 생성 -->
-<!--    <Button-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="버튼"-->
-<!--        android:id="@+id/btn"-->
-<!--        />-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="버튼"
+        android:id="@+id/btn"
+        android:drawableLeft="@drawable/chipndale_right"
+        android:drawablePadding="10dp"
+        android:textSize="30sp"
+        android:paddingHorizontal="30dp"
+        android:textColor="#FFED7B"
+        android:background="@drawable/custom_button"
+        android:outlineProvider="background"
+        />
 
     <!-- 텍스트에 아이콘 설정 -->
 <!--    <TextView-->
