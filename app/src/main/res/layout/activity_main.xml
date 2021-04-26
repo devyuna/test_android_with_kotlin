@@ -1,12 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="이메일"
+        />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="비밀번호"
+        />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="이름"
+        />
+
+    <EditText
+        android:id="@+id/et_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="나이"
+        />
+
+    <Button
+        android:onClick="Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="로그인"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#3B8FEA"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        />
+
+<!--    <Button-->
+<!--    android:layout_width="300dp"-->
+<!--    android:layout_height="300dp"-->
+<!--    android:background="@drawable/custom_button"-->
+<!--    />-->
 
     <!-- 텍스트 스타일 -->
 <!--    <TextView-->
@@ -77,19 +127,19 @@
 <!--        />-->
 
     <!-- 버튼 생성 -->
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="버튼"
-        android:id="@+id/btn"
-        android:drawableLeft="@drawable/chipndale_right"
-        android:drawablePadding="10dp"
-        android:textSize="30sp"
-        android:paddingHorizontal="30dp"
-        android:textColor="#FFED7B"
-        android:background="@drawable/custom_button"
-        android:outlineProvider="background"
-        />
+<!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="버튼"-->
+<!--        android:id="@+id/btn"-->
+<!--        android:drawableLeft="@drawable/chipndale_right"-->
+<!--        android:drawablePadding="10dp"-->
+<!--        android:textSize="30sp"-->
+<!--        android:paddingHorizontal="30dp"-->
+<!--        android:textColor="#FFED7B"-->
+<!--        android:background="@drawable/custom_button"-->
+<!--        android:outlineProvider="background"-->
+<!--        />-->
 
     <!-- 텍스트에 아이콘 설정 -->
 <!--    <TextView-->
@@ -103,4 +153,4 @@
 <!--        android:textSize="40sp"-->
 <!--        />-->
 
-</FrameLayout>
+</LinearLayout>

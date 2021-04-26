@@ -5,8 +5,11 @@
       <map>
         <entry key="..\:/yuna/test_application/test_kotlin/app/src/main/res/drawable/chipndale_right.xml" value="0.13697916666666668" />
         <entry key="..\:/yuna/test_application/test_kotlin/app/src/main/res/drawable/custom_button.xml" value="0.18177083333333333" />
+        <entry key="..\:/yuna/test_application/test_kotlin/app/src/main/res/drawable/custom_button_selector.xml" value="0.18072916666666666" />
+        <entry key="..\:/yuna/test_application/test_kotlin/app/src/main/res/drawable/custom_layer_list.xml" value="0.18072916666666666" />
         <entry key="..\:/yuna/test_application/test_kotlin/app/src/main/res/layout/activity_ex.xml" value="0.10364583333333334" />
-        <entry key="..\:/yuna/test_application/test_kotlin/app/src/main/res/layout/activity_main.xml" value="0.10364583333333334" />
+        <entry key="..\:/yuna/test_application/test_kotlin/app/src/main/res/layout/activity_java.xml" value="0.16458333333333333" />
+        <entry key="..\:/yuna/test_application/test_kotlin/app/src/main/res/layout/activity_main.xml" value="0.16458333333333333" />
       </map>
     </option>
   </component>
