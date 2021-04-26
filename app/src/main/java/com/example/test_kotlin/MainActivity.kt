@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
 
         // 입력정보 비교
         if(et_email.text.toString() == "reviewtalk@reviewtalk.com" && et_password.text.toString() == "1234" &&
-            et_name.text.toString() == "아베링 테스트" && et_age.text.toString() == "25") {
+            et_name.text.toString() == "아베링" && et_age.text.toString() == "25") {
             Toast.makeText(this, "로그인 성공!", Toast.LENGTH_SHORT).show()
 
             startActivity(Intent(this, JavaActivity::class.java))
